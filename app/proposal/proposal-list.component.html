@@ -1,0 +1,16 @@
+<h1>Proposal List</h1>
+
+<div *ngFor="let proposal of proposals">
+	<a routerLink="/proposal/{{proposal.id}}">{{proposal.id}} - {{proposal.customer}}: {{proposal.portfolio_url}}</a>
+</div>
+<hr>
+<p>first 3 mock proposal</p>
+<div>
+	{{proposalOne.customer}}
+</div>
+<div>
+	{{proposalTwo.customer}}
+</div>
+<div>
+	{{proposalThree.customer}}
+</div>
