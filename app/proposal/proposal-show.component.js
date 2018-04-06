@@ -8,9 +8,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-Object.defineProperty(exports, "__esModule", { value: true });
-const core_1 = require("@angular/core");
-const router_1 = require("@angular/router");
+const core_1 = require('@angular/core');
+const router_1 = require('@angular/router');
 let ProposalShowComponent = class ProposalShowComponent {
     constructor(route) {
         this.route = route;
@@ -26,8 +25,8 @@ ProposalShowComponent = __decorate([
         moduleId: module.id,
         selector: 'proposal-show',
         templateUrl: 'proposal-show.component.html'
-    }),
-    __metadata("design:paramtypes", [router_1.ActivatedRoute])
+    }), 
+    __metadata('design:paramtypes', [router_1.ActivatedRoute])
 ], ProposalShowComponent);
 exports.ProposalShowComponent = ProposalShowComponent;
 //# sourceMappingURL=proposal-show.component.js.map

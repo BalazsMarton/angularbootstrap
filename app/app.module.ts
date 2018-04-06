@@ -28,7 +28,7 @@ import { AppRoutingModule } from './app-routing.module';
 		ProposalShowComponent,
 	],
 	bootstrap: [
-		AppComponent
-	]
+		AppComponent,
+	],
 })
 export class AppModule {}
